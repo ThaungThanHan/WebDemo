@@ -8,7 +8,8 @@ Library           SeleniumLibrary
 
 *** Variables ***
 ${SERVER}         localhost:7272
-${BROWSER}        Firefox
+# ${BROWSER}        Chrome
+${BROWSER}        headlesschrome
 ${DELAY}          0
 ${VALID USER}     demo
 ${VALID PASSWORD}    mode
